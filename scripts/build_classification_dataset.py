@@ -3,7 +3,7 @@ import shutil
 import pandas as pd
 
 # 路径
-base_path = r"C:\Users\李晓滢129\Desktop\NanoAI"
+base_path = r"...\Nano_shape"
 labels_csv = os.path.join(base_path, "labels.csv")
 images_dir = os.path.join(base_path, "dataset", "images", "train")
 output_dir = os.path.join(base_path, "cls_dataset")

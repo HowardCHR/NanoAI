@@ -9,9 +9,9 @@ import os
 # ================================
 # 1. 配置路径
 # ================================
-model_path = r"C:\Users\李晓滢129\Desktop\NanoAI\shape_classifier.pth"
-input_dir = r"C:\Users\李晓滢129\Desktop\NanoAI\dataset\images\val"
-output_dir = r"C:\Users\李晓滢129\Desktop\NanoAI\dataset\images\val_pred"
+model_path = r"...\shape_classifier.pth"
+input_dir = r"...\dataset\images\val"
+output_dir = r"...\dataset\images\val_pred"
 
 os.makedirs(output_dir, exist_ok=True)
 

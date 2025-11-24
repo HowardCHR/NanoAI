@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ================================
 # 1️⃣ 数据路径
 # ================================
-data_dir = r"C:\Users\李晓滢129\Desktop\NanoAI\cls_dataset"
+data_dir = r"...\cls_dataset"
 
 # ================================
 # 2️⃣ 配置设备
@@ -52,7 +52,7 @@ num_ftrs = model.fc.in_features
 model.fc = nn.Linear(num_ftrs, 5)  # 5类
 
 # 如果已有训练好的模型，加载继续训练
-checkpoint_path = r"C:\Users\李晓滢129\Desktop\NanoAI\shape_classifier.pth"
+checkpoint_path = r"...\shape_classifier.pth"
 if os.path.exists(checkpoint_path):
     model.load_state_dict(torch.load(checkpoint_path, map_location=device))
     print(f"✅ 已加载已有模型：{checkpoint_path}")
