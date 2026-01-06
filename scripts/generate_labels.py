@@ -7,10 +7,10 @@ from PIL import Image
 # 1. 路径设置（请确认）
 # ===================
 
-IMAGE_DIR = "./images"          # 图片位置
-CSV_PATH = "./labels.csv"       # 你给我的 CSV
-OUT_LABEL_DIR = "./auto_labels" # 生成 YOLO txt 的地方
-MODEL_PATH = "./runs/detect/train/weights/best.pt"  # 你组员的 YOLOv8 模型
+IMAGE_DIR = "./images"          
+CSV_PATH = "./labels.csv"       
+OUT_LABEL_DIR = "./auto_labels" 
+MODEL_PATH = "./runs/detect/train/weights/best.pt"  
 
 os.makedirs(OUT_LABEL_DIR, exist_ok=True)
 
