@@ -1,0 +1,5 @@
+train: ./train/images
+val: ../val/images
+
+nc: 4
+names: ['sphere', 'rod', 'triangle', 'cube', ]
